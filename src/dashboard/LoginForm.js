@@ -114,7 +114,6 @@ function LoginForm() {
                             onChange={(e) => setAccountType(e.target.value)}
                             style={selectStyle}
                         >
-                            <option value="select" defaultChecked>Select Account</option>
                             <option value="user">User</option>
                             <option value="admin">Admin</option>
                         </select>
